@@ -11,6 +11,10 @@
 		EDB321F32C49DE7A00D15B2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB321F22C49DE7A00D15B2B /* ContentView.swift */; };
 		EDB321F52C49DE7C00D15B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB321F42C49DE7C00D15B2B /* Assets.xcassets */; };
 		EDB321F82C49DE7C00D15B2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB321F72C49DE7C00D15B2B /* Preview Assets.xcassets */; };
+		EDB322012C49E41A00D15B2B /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB322002C49E41A00D15B2B /* TextBootcamp.swift */; };
+		EDB322032C49ED3800D15B2B /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB322022C49ED3800D15B2B /* ShapesBootcamp.swift */; };
+		EDB322052C49F31200D15B2B /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB322042C49F31200D15B2B /* ColorsBootcamp.swift */; };
+		EDB322072C4A1CEE00D15B2B /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB322062C4A1CEE00D15B2B /* GradientsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EDB321F22C49DE7A00D15B2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDB321F42C49DE7C00D15B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB321F72C49DE7C00D15B2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDB322002C49E41A00D15B2B /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		EDB322022C49ED3800D15B2B /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
+		EDB322042C49F31200D15B2B /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		EDB322062C4A1CEE00D15B2B /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				EDB321F02C49DE7A00D15B2B /* SwiftfulThinkingBootcampApp.swift */,
 				EDB321F22C49DE7A00D15B2B /* ContentView.swift */,
+				EDB322002C49E41A00D15B2B /* TextBootcamp.swift */,
+				EDB322022C49ED3800D15B2B /* ShapesBootcamp.swift */,
+				EDB322042C49F31200D15B2B /* ColorsBootcamp.swift */,
+				EDB322062C4A1CEE00D15B2B /* GradientsBootcamp.swift */,
 				EDB321F42C49DE7C00D15B2B /* Assets.xcassets */,
 				EDB321F62C49DE7C00D15B2B /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB322072C4A1CEE00D15B2B /* GradientsBootcamp.swift in Sources */,
+				EDB322052C49F31200D15B2B /* ColorsBootcamp.swift in Sources */,
+				EDB322032C49ED3800D15B2B /* ShapesBootcamp.swift in Sources */,
 				EDB321F32C49DE7A00D15B2B /* ContentView.swift in Sources */,
+				EDB322012C49E41A00D15B2B /* TextBootcamp.swift in Sources */,
 				EDB321F12C49DE7A00D15B2B /* SwiftfulThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 				DEVELOPMENT_TEAM = PA46S4LF26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bo otcamp";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +321,7 @@
 				DEVELOPMENT_TEAM = PA46S4LF26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bo otcamp";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
