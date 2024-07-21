@@ -9,7 +9,19 @@ import SwiftUI
 
 struct ImageBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("NYC")
+//            .renderingMode(.template) // to add tint to the logo by trating it as a template
+            .resizable()
+//            .aspectRatio(contentMode: .fit)
+            .scaledToFill()
+//            .scaledToFit()
+            .frame(width: 300, height: 200)
+//            .cornerRadius(30)
+            .clipShape(
+//                Circle()
+                RoundedRectangle(cornerRadius: 25)
+//                Ellipse()
+            )
     }
 }
 
